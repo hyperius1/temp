@@ -1,0 +1,22 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLIddKib-eNQnIb2RFfWaSIWQtqXwj1-bYwoL5cHFQsg&s=10");
+}
+.text1{
+    color: red;
+    text-align: left;
+}
+.text2{
+    color: blue;
+    text-align: center;
+}
+.text3{
+    color: green;
+    text-align: right;
+}
+.text4{
+    color: yellow;
+    text-align: justify;
+}
+.text5{
+    color: rgb(221, 7, 75);
+}
