@@ -1,5 +1,7 @@
 body{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLIddKib-eNQnIb2RFfWaSIWQtqXwj1-bYwoL5cHFQsg&s=10");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .text1{
     color: red;
@@ -19,4 +21,7 @@ body{
 }
 .text5{
     color: rgb(221, 7, 75);
+}
+ul{
+    list-style-type: square;
 }
