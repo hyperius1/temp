@@ -70,3 +70,27 @@ ul {
     color: blue;
     border: 3px solid rgb(0, 0, 0);
 }
+.block{
+    display: block;
+    border: 3px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
+.inline1{
+    display: inline;
+    color: green;
+    border: 3px solid red;
+    margin: 10px;
+}
+.inline2{
+    display: inline;
+    color: green;
+    border: 3px solid red;
+    margin: 10px;
+}
+.inline3{
+    display: inline;
+    color: green;
+    border: 3px solid red;
+    margin: 10px;
+}
