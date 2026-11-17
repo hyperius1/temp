@@ -50,4 +50,59 @@
 	border: 1px solid blue;
 }
 	*/
+	/*
+#elem1 {
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	position: absolute;
+}
+#elem2 {
+	position: absolute;
+	top: 225px;
+	left: 125px;
 	
+	width: 100px;
+	height: 100px;
+	border: 1px solid green;
+}
+#elem3 {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid blue;
+}
+*/
+#elem1 {
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	background-color: red;
+}
+#elem2 {
+	position: absolute;
+	top: 225px;
+	left: 125px;
+	
+	width: 100px;
+	height: 100px;
+	border: 1px solid green;
+	background-color: green;
+}
+#elem3 {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid blue;
+	background-color: blue;
+}
