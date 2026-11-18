@@ -1,49 +1,24 @@
-#parent {
-	position: relative;
-	width: 400px;
-	height: 400px;
-	margin: 0 auto;
-	background-color: yellow;
-    border-radius: 50%;
+.parent {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(255, 3, 3); 
 }
 
-#child1 {
-	position: absolute;
-	top: 45px;
-	right: 95px;
-	
-	width: 80px;
-	height: 80px;
-    background-color: white;
-    border-radius: 50%;
+.child {
+  position: absolute;
+  width: 50px;
+  height: 50px;
 }
-#child2 {
-	position: absolute;
-	top: 45px;
-	left: 95px;
 
-	width: 80px;
-	height: 80px;
-    background-color: white;
-    border-radius: 50%;
+.top-right {
+  top: 0;
+  right: 0;
+  background-color: orange;
 }
-#child3 {
-	position: absolute;
-	right: 160px;
-	top: 185px;
 
-	width: 80px;
-	height: 80px;
-    background-color: white;
-    border-radius: 50%;
-}
-#child4 {
-	position: absolute;
-	right: 100px;
-	bottom: 85px;
-
-	width: 180px;
-	height: 20px;
-    border-radius: 50%;
-    box-shadow: 0px 13px 0cap 13px white;
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  background-color: blue;
 }
