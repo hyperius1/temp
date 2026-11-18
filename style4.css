@@ -1,17 +1,26 @@
 #parent {
 	position: relative;
-    margin: auto;
 	width: 500px;
 	height: 300px;
 	margin: 0 auto;
 	border: 1px solid green;
+    background-color: green;
 }
-#child {
+#child1 {
 	position: absolute;
-	top: 60px;
-	left: 80px;
+	top: 35px;
+	left: 30px;
 	
 	width: 75px;
 	height: 75px;
-	border: 1px solid red;
+    background-color: white;
+}
+#child2 {
+	position: absolute;
+	right: 30px;
+	bottom: 35px;
+
+	width: 75px;
+	height: 75px;
+    background-color: white;
 }
