@@ -3,14 +3,13 @@
     height: 700px;
 	border: 1px solid red;
 	display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: stretch;
 
 }
 .child {
 	float: left;
-	width: 100px;
 	border: 1px solid green;
 }
 
