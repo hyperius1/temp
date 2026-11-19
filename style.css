@@ -1,26 +1,19 @@
 .parent {
-    margin: 20px auto;
-    width: 600px;
-    padding: 20px;
-    border: 1px solid black; 
-    text-align: justify;
-    font: 16px/1.4 Georgia, serif;
-}
+	width: 1000px;
+    height: 700px;
+	border: 1px solid red;
+	display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 
-.parent p {
-    margin: 0;
 }
-
 .child {
-    float: right;
-    width: 110px;
-    height: 75px;
-    margin: 10px 0 10px 20px; 
-    border: 1px solid green;float: right;
-    width: 120px;
-    height: 75px;
-    margin: 10px 0 10px 20px; 
-    text-align: center; 
-    padding-top: 5px; 
-    box-sizing: border-box;
+	float: left;
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+.clearfix {
+	clear: both;
 }
