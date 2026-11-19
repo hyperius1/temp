@@ -3,9 +3,9 @@
     height: 700px;
 	border: 1px solid red;
 	display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-end;
 
 }
 .child {
