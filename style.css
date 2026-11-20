@@ -1,10 +1,10 @@
 #parent {
 	display: grid;
-	grid-template: 3fr 1fr/ 1fr 1fr 2fr 3fr 3fr;
+	grid-template-columns: ;
 	border: 2px solid #696989;
 	padding: 10px;
 	width: 700px;
-	height: 150px;
+	height: 350px;
 }
 #parent > div {
 	padding: 10px;
