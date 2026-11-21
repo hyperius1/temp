@@ -1,8 +1,8 @@
 #menu {
 	display: flex;
 	gap: 10px;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	width: 600px;
+	flex-direction: column;
+	width: 200px;
 }
 #menu a {
 	margin-right: 5px;
@@ -14,6 +14,6 @@
 	background-color: green;
 }
 #menu a:hover, #menu a.active {
-	color: white;
-	background-color: green;
+	color: green;
+	background-color: white;
 }
