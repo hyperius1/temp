@@ -1,81 +1,34 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+#wrapper {
+	width: 1000px;
+	margin: 30px auto;
+	border: 1px solid black;
 }
-
-.wrapper {
-  margin-bottom: 30px;
+#header {
+	height: 200px;
+	padding: 20px;
+	border: 1px solid black;
 }
-
-.center {
-  width: 800px;
-  padding: 20px;
-  margin: 0 auto;
+#container {
+	display: flex;
 }
-
-.wrapper h1 {
-  margin: 0 0 15px 0;
-  font-size: 36px;
+#content {
+	width: 780px;
+	height: 700px;
+	padding: 20px;
+	border: 1px solid black;
 }
-
-.wrapper h2 {
-  margin: 0 0 20px 0;
-  font-size: 26px;
-  text-align: center;
+#sidebar {
+	width: 200px;
+	margin-right: 30px;
+	padding: 20px;
+	border: 1px solid black;
 }
-
-.wrapper p {
-  font-size: 15px;
-  line-height: 1.4;
-  text-align: justify;
-  margin: 0 0 12px 0;
-}
-
-.wrapper p:last-child {
-  margin-bottom: 0;
-}
-
-.wrapper.green {
-  background-color: #008040;
-  color: white;
-}
-
-.wrapper.green .center,
-.wrapper.green p {
-  text-align: center;
-}
-
-.wrapper.green p {
-  font-size: 18px;
-  margin-bottom: 8px;
-}
-
-.wrapper.red {
-  background-color: #c80000;
-  color: white;
-}
-
-.wrapper.red h2 {
-  margin-bottom: 12px;
-}
-
-.wrapper.red p {
-  text-align: center;
-  font-size: 14px;
-}
-
-.wrapper.orange {
-  background-color: #f78243;
-  color: white;
-  margin-bottom: 0;
-  padding-top: 110px;
-}
-
-.wrapper.orange p {
-  text-align: center;
-  font-size: 12px;
+#footer {
+	height: 200px;
+	padding: 20px;
+	border: 1px solid black;
 }
