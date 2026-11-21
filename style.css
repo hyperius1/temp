@@ -1,41 +1,67 @@
+body{
+	margin: 0;
+}
 #wrapper {
 	width: 800px;
-	margin: 50px auto;
-	border: 1px solid black;
+	margin: 0px auto;
+	border: 1px solid orange;
 }
 
 #menu {
 	display: flex;
 	justify-content: flex-start;
-	margin-bottom: 20px;
-	background-color: #484848;
+	margin-bottom: 5px;
+	background-color: orange;
 }
 #menu a {
-	margin: 0 5px;
+	margin: 0 1px;
 	padding: 15px 25px;
 	text-decoration: none;
 	color: #fff;
 	font: bold 14px Arial;
 }
 #menu a:hover, #menu a.active {
-	color: #484848;
+	color: orange;
 	background-color: #fff;
 }
 
 #content {
 	padding: 0 5px 20px;
+	text-indent: 40px;
+	margin-bottom: 20px;
 }
 #content h1 {
 	text-align: center;
 	margin-top: 0;
 	margin-bottom: 10px;
+	color: brown;
 }
 #content p {
 	padding: 0 10px;
 	margin-bottom: 5px;
-	font: 18px/1.3 Arial;
+	font: 18px/1.3 "Times New Roman";
 	text-align: justify;
+	color: orange;
 }
 #content .dedicated{
-	color: blue;
+	color: brown;
+	text-decoration: underline;
+}
+#menu2 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5px;
+	color: brown;
+}
+#menu2 a {
+	margin: 0 1px;
+	padding: 15px 15px;
+	text-decoration: none;
+	color: brown;
+	font: bolder 14px Arial;
+}
+#menu2 a:hover, #menu2 a.active {
+	background-color: #fff;
+	color: black;
+	text-decoration: underline;
 }
