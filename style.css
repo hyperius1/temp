@@ -1,10 +1,19 @@
-#parent {
-	display: grid;
+#menu {
+	display: flex;
 	gap: 10px;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	border: 2px solid #696989;
 	width: 600px;
 }
-#parent > div {
-	border: 1px solid #696989;
+#menu a {
+	margin-right: 5px;
+	padding: 10px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: white;
+	border: 1px solid green;
+	background-color: green;
+}
+#menu a:hover, #menu a.active {
+	color: white;
+	background-color: green;
 }
