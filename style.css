@@ -1,8 +1,7 @@
 #menu {
 	display: flex;
-	gap: 10px;
-	flex-direction: column;
-	width: 200px;
+	width: 600px;
+	background-color: greenyellow;
 }
 #menu a {
 	margin-right: 5px;
@@ -10,10 +9,9 @@
 	font: 15px Arial;
 	text-decoration: none;
 	color: white;
-	border: 1px solid green;
-	background-color: green;
+	background-color: greenyellow;
 }
 #menu a:hover, #menu a.active {
-	color: green;
-	background-color: white;
+	color: white;
+	background-color: green;
 }
