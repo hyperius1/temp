@@ -2,6 +2,7 @@ table {
 	border-spacing: 30px;
 	width: 400px;
 	border: 1px solid green;
+	empty-cells: hide;
 }
 td {
 	border: 1px solid black;
