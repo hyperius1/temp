@@ -2,7 +2,7 @@ div{
 	width: 200px;
 	height: 300px;;
 	border: 1px solid red;
-	overflow-x: auto;
+	overflow-x: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
