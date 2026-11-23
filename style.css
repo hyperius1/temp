@@ -1,9 +1,12 @@
-div::selection{
-	width: 700px;
-	overflow-wrap: break-word;
-	overflow: hidden;
-	margin-left: 300px;
-	background-color: black;
-	
-
+table {
+	border-collapse: collapse;
+	width: 400px;
+	border-spacing: 0;
+	border: 1px solid green;
+}
+td {
+	border: 1px solid black;
+	text-align: center;
+	background-color: green;
+	color: white;
 }
