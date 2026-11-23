@@ -1,5 +1,7 @@
-span:hover::after {
-	content: '▪▪▪';
-	color: black;
-	background-color: red;
+#parent {
+	counter-reset: test;
+}
+#parent p::before {
+	counter-increment: test;
+	content: counter(test);
 }
