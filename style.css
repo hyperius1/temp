@@ -3,4 +3,5 @@ div{
 	column-rule: 1px solid grey;
 	column-count: 4;
 	column-gap: 30px;
+	user-select: none;
 }
