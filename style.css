@@ -1,7 +1,9 @@
-a{
-	width: 1000px;
-	column-rule: 1px solid grey;
-	column-count: 4;
-	column-gap: 30px;
-	cursor: not-allowed;
+div::selection{
+	width: 700px;
+	overflow-wrap: break-word;
+	overflow: hidden;
+	margin-left: 300px;
+	background-color: black;
+	
+
 }
