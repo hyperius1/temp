@@ -2,6 +2,8 @@ div{
 	width: 200px;
 	height: 300px;
 	border: 1px solid red;
-	hyphens: auto;
+	text-decoration-style: wavy ;
+	text-decoration-line: underline;
+	text-decoration-color: red;
 	
 }
