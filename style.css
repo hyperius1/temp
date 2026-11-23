@@ -1,6 +1,6 @@
-.pre{
+div{
 	width: 200px;
-	white-space: pre;
+	height: 200px;
 	border: 1px solid red;
 	tab-size: 2;
 }
