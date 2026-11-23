@@ -1,8 +1,16 @@
-div{
+.break{
 	width: 200px;
-	height: auto;;
+	height: 300px;
 	border: 1px solid red;
-	overflow-x: hidden;
-	text-overflow: ellipsis;
-	white-space: wrap;
+	word-break: break-all;
+	
+}
+.break2{
+	width: 200px;
+	height: 300px;
+	border: 1px solid red;
+	word-break: break-word;
+	margin-left: 400px;
+	margin-top: -300px;
+	
 }
