@@ -1,4 +1,4 @@
-p::first-letter{
+p::first-line{
 	color: red;
 	font-size: 27px;
 }
