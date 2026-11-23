@@ -3,13 +3,3 @@
 	white-space: pre;
 	border: 1px solid red;
 }
-.preline{
-	width: 200px;
-	white-space: pre-line;
-	border: 1px solid red;
-}
-.prewrap{
-	width: 200px;
-	white-space: pre-wrap;
-	border: 1px solid red;
-}
