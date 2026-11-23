@@ -1,4 +1,4 @@
-p{
-	text-transform: capitalize;
-	text-align-last: right;
+p::first-letter{
+	color: red;
+	font-size: 27px;
 }
