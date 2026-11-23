@@ -2,7 +2,7 @@ div{
 	width: 200px;
 	height: 300px;
 	border: 1px solid red;
-	text-decoration-style: double ;
+	text-decoration-style: dashed ;
 	text-decoration-line: underline;
 	text-decoration-color: red;
 	
