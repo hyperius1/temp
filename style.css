@@ -1,4 +1,5 @@
-p::first-line{
-	color: red;
-	font-size: 27px;
+div{
+	width: 200px;
+	white-space: pre;
+	border: 1px solid red;
 }
