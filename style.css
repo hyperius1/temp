@@ -1,5 +1,5 @@
 div{
 	width: 200px;
-	white-space: pre;
+	white-space: nowrap;
 	border: 1px solid red;
 }
