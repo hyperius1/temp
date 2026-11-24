@@ -1,4 +1,13 @@
-textarea{
+.textarea1{
 	width: 300px;
 	height: 300px;
+	text-align: left;
+}
+.textarea2{
+	width: 200px;
+}
+textarea{
+	display: flex;
+	flex-direction: column;
+	margin: 2px;
 }
