@@ -1,10 +1,4 @@
-input::placeholder{
-	color: green;
-
-
+input{
+	width: 200px;
+	height: 50px;
 }
-textarea::placeholder{
-	color: green;
-
-
-}	
