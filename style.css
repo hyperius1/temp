@@ -7,10 +7,17 @@
 	}
 }
 
-div {
+#target {
+	border: 1px solid red;
+	margin-bottom: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+#elem {
 	width: 200px;
 	height: 50px;
-	border: 1px solid red;
+	border: 1px solid black;
 	animation-name: move;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
@@ -19,6 +26,8 @@ div {
 	animation-play-state: paused;
 }
 
-div:hover {
+
+
+#target:hover + #elem {
 	animation-play-state: running;
 }
