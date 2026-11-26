@@ -4,9 +4,9 @@ div {
 	transition-property: all;
 	color: red;
 	height: 100px;
-	width: 500px;
+	width: 200px;
 }
 div:hover{
-	background-color: red;
-	color: white;
+	width: 700px;
+
 }
