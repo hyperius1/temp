@@ -1,5 +1,5 @@
 div {
 	height: 200px;
 	width: 200px;
-	box-shadow: 4px 3px 3px green;
+	box-shadow: 7px 50px 3px green, 7px -50px 3px red	
 }
