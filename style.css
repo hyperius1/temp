@@ -4,5 +4,5 @@ div {
 	margin-top: 100px;
 	margin-left: 100px;
 	border: 1px solid black;
-	background: repeating-linear-gradient(black 0px, black 2px, white 2px, white 4px)
+	background: repeating-linear-gradient(45deg, rgb(255, 0, 0) 0px, rgb(255, 0, 0) 2px, white 2px, white 4px);
 }
