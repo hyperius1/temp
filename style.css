@@ -1,19 +1,17 @@
 @keyframes move {
 	from {
-		margin-left: 0px;
+		background-color: white;
 	}
 	to {
-		margin-left: 400px;
+		background-color: red;
 	}
 }
 
 div {
-	transition-timing-function: ease;
 	animation-name: move;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
-	animation-timing-function: linear;
 	border: 1px solid red;
-	width: 50px;
-	height: 50px;
+	width: 400px;
+	height: 400px;
 }
