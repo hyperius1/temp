@@ -3,5 +3,6 @@ div {
 	width: 200px;
 	margin-top: 100px;
 	margin-left: 100px;
-	background: linear-gradient(white 0px, white 85px, red 75px);
+	border: 1px solid black;
+	background: radial-gradient(at top, #5be3ff, #008cc2);
 }
