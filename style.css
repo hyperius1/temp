@@ -1,5 +1,7 @@
 div {
 	height: 200px;
 	width: 200px;
-	box-shadow: 7px 25px 0px black;
+	margin-top: 100px;
+	margin-left: 100px;
+	box-shadow: 30px 25px 10px black, -30px -25px 10px;
 }
