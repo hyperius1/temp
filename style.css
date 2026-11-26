@@ -4,5 +4,5 @@ div {
 	margin-top: 100px;
 	margin-left: 100px;
 	border: 1px solid black;
-	background: radial-gradient(black 5px, white 20px, white 30px, green 50px);
+	background: radial-gradient(green 5px, green 30px, white 30px, white 50px, green 30px);
 }
