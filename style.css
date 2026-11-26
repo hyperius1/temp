@@ -1,17 +1,29 @@
-@keyframes move {
-	from {
-		background-color: white;
+@keyframes squareMove {
+	0% {
+		margin-left: 0px;
+		margin-top: 0px;
 	}
-	to {
-		background-color: red;
+	25% {
+		margin-left: 200px; 
+		margin-top: 0px;
+	}
+	50% {
+		margin-left: 200px;
+		margin-top: 200px; 
+	}
+	75% {
+		margin-left: 0px;  
+		margin-top: 200px;
+	}
+	100% {
+		margin-left: 0px;
+		margin-top: 0px;   
 	}
 }
 
 div {
-	animation-name: move;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
+	animation: squareMove 10s linear infinite;
 	border: 1px solid red;
-	width: 400px;
-	height: 400px;
+	width: 50px;
+	height: 50px;
 }
