@@ -1,13 +1,12 @@
-div {
-	border: 1px solid red;
+input {
 	transition-duration: 2s;
-	transition-property: all;
-	transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1);
-	color: red;
-	height: 100px;
-	width: 200px;
+	padding-left: 5px;
+	border-radius: 2px;
+	outline: none;
 }
 
-div:hover {
-	width: 400px;
+input:focus {
+	color: blue;
+	border: 2px solid blue;
+	box-shadow: 0px 0px 6px blue;
 }
