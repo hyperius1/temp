@@ -2,12 +2,12 @@ div {
 	border: 1px solid red;
 	transition-duration: 2s;
 	transition-property: all;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1);
 	color: red;
 	height: 100px;
 	width: 200px;
 }
-div:hover{
-	margin-left: 100px;
-	width: 400px;
 
+div:hover {
+	width: 400px;
 }
