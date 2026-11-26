@@ -1,3 +1,5 @@
-p {
-	text-shadow: 0px 0px 2px red;
+div {
+	height: 200px;
+	width: 200px;
+	box-shadow: 20px 15px 5px red;
 }
